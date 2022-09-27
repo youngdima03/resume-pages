@@ -562,6 +562,7 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  font-size: 90px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -6732,6 +6733,7 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  
 }
 
 .d-inline-flex {
@@ -7371,6 +7373,11 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-s {
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-auto {
@@ -11306,7 +11313,7 @@ h6,
 }
 
 h1, .h1 {
-  line-height: 1;
+  line-height: 1.4;
 }
 
 p.lead {
@@ -11396,6 +11403,8 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 section.resume-section {
@@ -11407,8 +11416,39 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+
+section.resume-section-contact {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
+
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+.resume-section-work {
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
+.work-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.work img {
+  height: 350px;
+  width: 323px;
 }
 
 @media (min-width: 768px) {
@@ -11423,4 +11463,22 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.workk {
+  box-sizing: border-box;
+  margin-left: 30px;
+  border: 1px solid;
+  box-shadow: 5px 10px 30px black;
+}
+
+.work-desc {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#ment {
+  font-size: 20px;
+  font-weight: bold;
 }
